@@ -1,0 +1,129 @@
+
+*{
+    
+    font-family: 'Pacifico', cursive;;
+}
+
+body {
+    background: url(/media/abstract_music_notes_background_1706.jpg) top no-repeat scroll ;
+    
+}
+.LogoSim{
+    text-align: center;
+    max-width: 100%;
+    margin: 20px;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a{
+      text-decoration: none;
+      color: black;
+}  
+.LogoSim h2{
+    font-size: 0.8rem;
+}
+
+.MainMenu a {
+    display: inline;
+    margin: 14px;
+}
+
+.MainMenu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    max-width: 90vw;
+    margin:0 auto;
+}
+
+.containercard {
+    width: 300px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.imgtext {
+    max-width: 60%;
+}
+.imtxflex {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.artmrg {
+    margin: 22px;
+}
+
+#guitarra {
+    background: url(../media/guitarra.jpg) ;
+    background-size: cover;
+}
+
+#piano {
+   background: url(../media/piano.jpg);
+   background-size: cover;
+
+}
+
+#percusion {
+    background: url(../media/percusion.jpg);
+    background-size: cover;
+}
+
+#strings {
+    background: url(../media/violin.jpg);
+    background-size: cover;
+}
+
+#voz {
+    background: url(../media/microfono.jpg);
+    background-size: cover;
+}
+
+#Viento {
+    background: url(../media/saxo.jpg);
+    background-size: cover;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact a {
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+/* MIS MEDIAQUERIES */
+@media screen and (max-width: 1700px) {
+    .MainMenu {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+    }
+}
+/* tablet */
+@media screen and (max-width: 1100px) {
+    .MainMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+ /* phone horizontal */
+ @media screen and (max-width: 768px) {
+    
+}
+ /* phone vertical */
+ @media screen and (max-width: 576px) {
+    
+}
