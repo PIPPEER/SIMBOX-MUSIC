@@ -48,6 +48,12 @@ a{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.containercard:hover {
+    transform: scale(120%);
+    transition: 0.3s;
 }
 
 .imgtext {
@@ -118,12 +124,12 @@ a{
         display: flex;
         flex-direction: column;
         align-items: center;
-}
+}}
  /* phone horizontal */
  @media screen and (max-width: 768px) {
     
 }
  /* phone vertical */
  @media screen and (max-width: 576px) {
-    
-}
+     
+ }
