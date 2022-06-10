@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>SIMBOX MUSIC</title>
 </head>
-
-<body>
+<body class="fondo">
     <header>
         <div class="LogoSim">
             <h1>Simbox Music</h1>
@@ -22,32 +23,73 @@
     <section>
         <main>
             <nav>
-                <div class="MainMenu">
-                    <a href="./paginas/guitar.html">
-                        <div class="containercard" id="guitarra">Guitarra</div>
-                    </a>
-                    <a href="./paginas/piano.html">
-                        <div class="containercard" id="piano">Piano</div>
-                    </a>
-                    <a href="./paginas/percusion.html">
-                        <div class="containercard" id="percusion">Percusión</div>
-                    </a>
-                    <a href="./paginas/strings.html">
-                        <div class="containercard" id="strings">Cuerdas</div>
-                    </a>
-                    <a href="./paginas/voice.html">
-                        <div class="containercard" id="voz">Voz</div>
-                    </a>
-                    <a href="./paginas/wind.html">
-                        <div class="containercard" id="Viento">Viento</div>
-                    </a>
+                <div>
+                    <div class="row">
+                        <!-- guitarra -->
+                        <div class="card col-sm-2 offset-sm-1" style="width: 18rem;">
+                            <img src="media/guitarra.jpg" class="card-img-top" alt="GUITARRITA">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="./paginas/guitar.html" class="btn btn-primary">GUITARRA</a>
+                            </div>
+                        </div>
+                        <!-- piano -->
+                        <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
+                            <img src="media/piano.jpg" class="card-img-top" alt="PIANO">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="./paginas/piano.html" class="btn btn-primary">PIANO</a>
+                            </div>
+                        </div>
+                        <!-- percusion -->
+                        <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
+                            <img src="media/Percusiones.jpg" class="card-img-top" alt="PERCUSION">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="./paginas/percusion.html" class="btn btn-primary">PERCUSION</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- violin -->
+                        <div class="card col-sm-2 offset-sm-1" style="width: 18rem;">
+                            <img src="media/Cuerdas.jpg" class="card-img-top" alt="CUERDAS">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="./paginas/strings.html" class="btn btn-primary">CUERDAS</a>
+                            </div>
+                        </div>
+                        <!-- voz -->
+                        <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
+                            <img src="media/Canto.jpg" class="card-img-top" alt="MICROFONO">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="./paginas/voice.html" class="btn btn-primary">MICROFONO</a>
+                            </div>
+                        </div>
+                        <!-- viento -->
+                        <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
+                            <img src="media/Viento.jpg" class="card-img-top" alt="VIENTO">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a href="./paginas/wind.html" class="btn btn-primary">VIENTO</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </nav>
         </main>
         <hr>
         <div class="contact">
             <a href="./paginas/contacto.html">CONTACTO</a>
         </div>
-        </nav>
+
     </section>
     <br>
     <hr>
@@ -62,6 +104,9 @@
                         height="20px">Twitter</a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
