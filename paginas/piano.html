@@ -1,33 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/style.css">
-    <title>PIANO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>GUITAR</title> 
 </head>
-<body>
-    <header>                
-        <nav class="LogoSim" >
+<body class="fondo">
+    <header>
+        <div class="LogoSim">
             <h1>Simbox Music</h1>
-            <h2>Musical Institute</h2>    
-        </nav>
-    </header> 
+            <h2>Musical Institute</h2>
+        </div>
+    </header>
     <main>
         <div class="MainMenu">
-            <a href="../index.html">INICIO</a>
-            <a href="./guitar.html">GUITAR</a>
-            <a href="./piano.html">PIANO</a>
-            <a href="./voice.html">VOICE</a>
-            <a href="./wind.html">WIND</a>
-            <a href="./percusion.html">PERCUSION</a>     
-            <a href="./strings.html">STRINGS</a>
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/guitar.html">guitarra</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/percusion.html">percusion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/strings.html">cuerdas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/voice.html">canto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/wind.html">viento</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/contacto.html">contacto</a>
+              </ul>
+        </div>
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../media/piano.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">PIANO</h5>
+                        <p class="card-text">El piano (abreviación de «pianoforte», palabra que en italiano está compuesta por los términos «piano», «suave», y «forte», «fuerte») es un instrumento musical armónico clasificado como instrumento de cuerda percutida por el sistema de clasificación tradicional, y según la clasificación de Hornbostel-Sachs es un cordófono simple. El músico que toca el piano se llama pianista.
+
+                            Está compuesto por una caja de resonancia a la que se ha agregado un teclado mediante el cual se percuten las cuerdas de acero con martillos forrados de fieltro, produciendo el sonido, Las vibraciones se transmiten a través de los puentes a la tabla armónica, que las amplifica. Está formado por un arpa cromática de cuerdas múltiples, accionada por un mecanismo de percusión indirecta, a la que se le han añadido apagadores. Fue inventado en torno al año 1700 por el paduano Bartolomeo Cristofori. Entre sus antecesores se encuentran instrumentos como la cítara, el monocordio, el dulcémele, el clavicordio y el clavecín (del que deriva la forma, pero no la mecánica).
+                            
+                            A lo largo de la historia han existido diferentes tipos de pianos, pero los más comunes son el piano de cola y el piano vertical o de pared. La afinación del piano es un factor primordial en la acústica del instrumento y se realiza modificando la tensión de las cuerdas de manera que estas vibren en las frecuencias adecuadas.
+                            
+                            En la música occidental, el piano se puede utilizar para la interpretación solista, para la música de cámara, para el acompañamiento, para ayudar a componer y para ensayar. Las primeras composiciones específicas para este instrumento surgieron alrededor del año 1732; entre ellas destacan las doce sonatas para piano de Lodovico Giustini tituladas Sonate da cimbalo di piano e forte detto volgarmente di martelletti. Desde entonces, muchos han sido los compositores que han realizado obras para piano y en muchos casos esos mismos compositores han sido pianistas. Destacan figuras como Frédéric Chopin, Franz Liszt, Wolfgang Amadeus Mozart, Ludwig van Beethoven, Claude Debussy o Piotr Ilich Chaikovski. Fue el instrumento representativo del romanticismo musical y ha tenido un papel relevante en la sociedad, especialmente entre las clases más acomodadas de los siglos xviii y xix.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>> 
-    <img src="../media/f.elconfidencial.com_original_143_e19_dc1_143e19dc15de11c3946b91333c8464cc.jpg" alt="">
     <hr>
      <div class="contact">
           <a href="./paginas/contacto.html">CONTACTO</a>
@@ -40,5 +78,8 @@
                <li><a href="https://twitter.com/"><img src="../media/twitter-seeklogo.com.svg" alt="LOGO Twit" height="20px">Twitter</a></li>
           </ul>
      </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 </html>

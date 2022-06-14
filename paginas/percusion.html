@@ -1,33 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">    <link rel="stylesheet" href="../css/style.css">
-    <title>PERCUSION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>PERCUSION</title> 
 </head>
-<body>
-    <header>                
-        <nav class="LogoSim" >
+<body class="fondo">
+    <header>
+        <div class="LogoSim">
             <h1>Simbox Music</h1>
-            <h2>Musical Institute</h2>    
-        </nav>
-    </header> 
+            <h2>Musical Institute</h2>
+        </div>
+    </header>
     <main>
         <div class="MainMenu">
-            <a href="../index.html">INICIO</a>
-            <a href="./guitar.html">GUITAR</a>
-            <a href="./piano.html">PIANO</a>
-            <a href="./voice.html">VOICE</a>
-            <a href="./wind.html">WIND</a>
-            <a href="./percusion.html">PERCUSION</a>     
-            <a href="./strings.html">STRINGS</a>
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/guitar.html">guitarra</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/piano.html">piano</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/strings.html">cuerdas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/voice.html">canto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/wind.html">viento</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../paginas/contacto.html">contacto</a>
+              </ul>
+        </div>
+        <div class="card mb-3" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../media/Percusiones.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">PERCUSION</h5>
+                        <p class="card-text">Un instrumento de percusión es un tipo de instrumento musical que suena al ser golpeado, agitado o raspado por una baqueta, mazo o palillo incluyendo batidores adjuntos o cerrados o sonajeros golpeados, raspados o frotados con la mano o golpeados contra otro instrumento similar. Excluyendo los instrumentos de zoomusicología y la voz humana, se cree que la familia de la percusión incluye los instrumentos musicales más antiguos.
+
+                            La sección de percusión de una orquesta suele contener instrumentos como los timbales, el bombo, el bombo, los platillos, el triangular y la pandereta. Sin embargo, la sección también puede contener instrumentos no percusivos, como silbato y sirena, o una caracola soplada. Las técnicas de percusión pueden aplicarse incluso al propio cuerpo humano, como en la percusión corporal. Por otro lado, los instrumentos de teclado, como la celesta, no suelen formar parte de la sección de percusión, pero los instrumentos de percusión de teclado como el glockenspiel y el xilófono (que no tienen teclados de piano) están incluidos.
+                            
+                            La percusión se distingue por la variedad de timbres que es capaz de producir y por su facilidad de adaptación con otros instrumentos musicales. Cabe destacar que puede obtenerse una gran variedad de sonidos según las baquetas o mazos que se usan para golpear algunos de los instrumentos de percusión.
+                            
+                            Un instrumento de percusión puede ser usado para crear patrones de ritmos (batería, tam-tam, caja vallenata, entre otros) o bien para emitir notas musicales (xilófono).
+                    
+                            Suele acompañar a otros con el fin de crear y mantener el ritmo. Algunos de los instrumentos de percusión más famosos son el redoblante (tambor) y la batería.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main> 
-    <img src="../media/descarga.jfif" alt="">
     <hr>
      <div class="contact">
           <a href="./paginas/contacto.html">CONTACTO</a>
@@ -40,5 +80,8 @@
                <li><a href="https://twitter.com/"><img src="../media/twitter-seeklogo.com.svg" alt="LOGO Twit" height="20px">Twitter</a></li>
           </ul>
      </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 </html>
