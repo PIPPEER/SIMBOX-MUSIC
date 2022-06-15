@@ -56,7 +56,7 @@
     justify-content: center;
 }
 
-.contact button {
+.contact a {
     background-color: #fafafa;
     padding: 10px;
     text-transform: uppercase;
