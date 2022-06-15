@@ -13,10 +13,7 @@
     padding-bottom: 20px;
 }
 
-a {
-      text-decoration: none;
-      color: black;
-}  
+
 .LogoSim h2{
     font-size: 0.8rem;
 }
@@ -50,49 +47,8 @@ a {
     transition: 0.3s;
 }
 
-.imgtext {
-    max-width: 60%;
-}
-.imtxflex {
-    display: flex;
-    flex-direction: row;
 
-}
 
-.artmrg {
-    margin: 22px;
-}
-
-#guitarra {
-    background: url(../media/guitarra.jpg) ;
-    background-size: cover;
-}
-
-#piano {
-   background: url(../media/piano.jpg);
-   background-size: cover;
-
-}
-
-#percusion {
-    background: url(../media/percusion.jpg);
-    background-size: cover;
-}
-
-#strings {
-    background: url(../media/violin.jpg);
-    background-size: cover;
-}
-
-#voz {
-    background: url(../media/microfono.jpg);
-    background-size: cover;
-}
-
-#Viento {
-    background: url(../media/saxo.jpg);
-    background-size: cover;
-}
 
 .contact{
     display: flex;
@@ -100,9 +56,10 @@ a {
     justify-content: center;
 }
 
-.contact a {
+.contact button {
     background-color: #fafafa;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 /* MIS MEDIAQUERIES */
