@@ -1,0 +1,93 @@
+@import "parciales/reset";
+@import "parciales/variables";
+
+.fondo {
+    background: url(/media/abstract_music_notes_background_1706.jpg) top no-repeat scroll ;
+}
+
+.header__LogoSim {
+    text-align: center;
+    max-width: 100%;
+    margin: 20px;
+    text-transform: uppercase;
+    background-color: $blanquito;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    h2 {
+    font-size: 0.8rem;
+    }}
+
+    .main__menu {
+        text-transform: uppercase;
+        font-size: 25px;
+        background-color: $blanquito;
+    }
+    
+    .Formu {
+        display: flex;
+        margin: 10px;
+        background-color:$blanquito;
+    }
+    
+    .containercard {
+        width: 300px;
+        height: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: $blanquito;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        transition: 0.2s;
+    }
+    
+    .containercard:hover {
+        transform: scale(120%);
+        transition: 0.3s;
+    }
+    
+    
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+    background-color: $blanquito;
+    padding: 10px;
+    text-transform: uppercase;
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* MIS MEDIAQUERIES */
+    @media screen and (max-width: 1700px) {
+        .main__menu {
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto;
+        }
+    }
+    /* tablet */
+    @media screen and (max-width: 1100px) {
+        .main__menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }}
+     /* phone horizontal */
+     @media screen and (max-width: 768px) {
+        
+    }
+     /* phone vertical */
+     @media screen and (max-width: 576px) {
+         
+     }
