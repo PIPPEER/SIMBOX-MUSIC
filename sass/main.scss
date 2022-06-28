@@ -1,22 +1,28 @@
 @import "parciales/reset";
 @import "parciales/variables";
 
-.fondo {
-    background: url(/media/abstract_music_notes_background_1706.jpg) top no-repeat scroll ;
-}
 
-.header__LogoSim {
-    text-align: center;
-    max-width: 100%;
-    margin: 20px;
-    text-transform: uppercase;
-    background-color: $blanquito;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    h2 {
-    font-size: 0.8rem;
-    }}
+    .header__LogoSim {
+        text-align: center;
+        max-width: 100%;
+        margin: 20px;
+        text-transform: uppercase;
+        background-color: $blanquito;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        h2 {
+        font-size: 0.8rem;
+        }}
+    
+    .header__LogoSim--intro {
+        @extend.header__LogoSim;
+        background-color: grey;
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
 
+   
     .main__menu {
         text-transform: uppercase;
         font-size: 25px;
@@ -48,17 +54,23 @@
     
     
 
-.contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    a {
-    background-color: $blanquito;
-    padding: 10px;
-    text-transform: uppercase;
-    }}
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+        background-color: $blanquito;
+        padding: 10px;
+        text-transform: uppercase;
+        }}
 
-
+    
+    .footer {
+        list-style: none;
+        a {
+            text-decoration: none;
+        }
+    }
 
 
 
