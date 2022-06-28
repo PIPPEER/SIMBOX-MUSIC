@@ -5,11 +5,13 @@
     .header__LogoSim {
         text-align: center;
         max-width: 100%;
-        margin: 20px;
+        margin: 40px;
         text-transform: uppercase;
         background-color: $blanquito;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-left: 35%;
+        margin-right: 35%;
         h2 {
         font-size: 0.8rem;
         text-decoration: underline;
@@ -18,6 +20,8 @@
     .header__LogoSim--intro {
         @extend.header__LogoSim;
         background-color: wheat;
+        margin-left: 20%;
+        margin-right: 20%;
         h3 {
             font-size: 1.3rem;
         }
