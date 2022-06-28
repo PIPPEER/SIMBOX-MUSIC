@@ -1,6 +1,6 @@
 @import "parciales/reset";
 @import "parciales/variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap');
 
     .header__LogoSim {
         text-align: center;
@@ -12,11 +12,12 @@
         padding-bottom: 20px;
         h2 {
         font-size: 0.8rem;
+        text-decoration: underline;
         }}
     
     .header__LogoSim--intro {
         @extend.header__LogoSim;
-        background-color: grey;
+        background-color: wheat;
         h3 {
             font-size: 1.3rem;
         }
@@ -29,11 +30,7 @@
         background-color: $blanquito;
     }
     
-    .Formu {
-        display: flex;
-        margin: 10px;
-        background-color:$blanquito;
-    }
+    
     
     .containercard {
         width: 300px;
@@ -63,14 +60,143 @@
         padding: 10px;
         text-transform: uppercase;
         }}
+        body{
+            height: 100%; 
+            font-family: 'Noto Sans', sans-serif;
+            background-image: url(../media/pexels-pixabay-220067.jpg);
+        }
+        
+        
+        .contact_form{	
+            width: 460px; 
+          height: auto;
+          margin: 80px auto;
+            border-radius: 10px;  
+            padding-top: 30px;
+            padding-bottom: 20px;  
+          background-color: #fbfbfb; 
+          padding-left: 30px; 
+        }
+        
+        
+        input{
+            background-color: #fbfbfb; 
+            width: 408px; 
+            height: 40px; 
+            border-radius: 5px;  
+            border-style: solid; 
+            border-width: 1px; 
+            border-color: darkslateblue; 
+            margin-top: 10px;  
+            padding-left: 10px;
+          margin-bottom: 20px; 
+        }
+        
+        
+        textarea{
+          background-color: #fbfbfb; 
+            width: 405px; 
+            height: 150px; 
+            border-radius: 5px;  
+            border-style: solid; 
+            border-width: 1px; 
+            border-color: darkslateblue; 
+            margin-top: 10px;  
+            padding-left: 10px;
+          margin-bottom: 20px; 
+          padding-top: 15px; 
+        }
+        
+        
+        label{
+          display: block; 
+            float: center; 	
+        }
+        
+        
+        button{
+            height: 45px; 
+            padding-left: 5px;
+            padding-right: 5px; 	
+            margin-bottom: 20px; 
+            margin-top: 10px; 	
+            text-transform: uppercase;
+            background-color: darkslateblue; 
+            border-color: darkslateblue; 
+            border-style: solid; 
+            border-radius: 10px;	
+            width: 420px;   
+          cursor: pointer;
+        }
+        
+        
+        button p{
+            color: #fff; 
+        }
+        
+        
+        span{
+            color: darkslateblue; 
+        }
+        
+        
+        .aviso{
+            font-size: 13px;  
+            color: #0e0e0e;  
+        }
+        
+        
+        h1{
+            font-size: 39px;  
+            text-align: letf; 
+            padding-bottom: 20px; 
+            color: darkslateblue;
+        }
+        
+        
+        h3{
+            font-size: 16px; 
+            padding-bottom: 30px;
+            color: #0e0e0e;   
+        }
+        
+        
+        p{
+            font-size: 14px; 
+            color: #0e0e0e; 
+        }
+        
+        
+        ::-webkit-input-placeholder {
+         color: #a8a8a8;
+        }
+        
+        
+        ::-webkit-textarea-placeholder {
+         color: #a8a8a8;
+        }
+        
+        
+        .formulario input:focus{
+            outline:0;
+            border: 1px solid #97d848;
+        }
+        
+        
+        .formulario textarea:focus{
+            outline:0;
+            border: 1px solid #97d848;
+        }
 
-    
+
+        
     .footer {
         list-style: none;
-        a {
-            text-decoration: none;
-        }
+    }    
+    a {
+        text-decoration: none;
     }
+    
 
 
 
