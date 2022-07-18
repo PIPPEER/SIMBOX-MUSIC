@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__LogoSim, .header__LogoSim--intro {
+  text-align: center;
+  max-width: 100%;
+  margin: 40px;
+  text-transform: uppercase;
+  background-color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 75%;
+}
+.header__LogoSim h2, .header__LogoSim--intro h2 {
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+
+.header__LogoSim--intro {
+  background-color: wheat;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.header__LogoSim--intro h3 {
+  font-size: 1.3rem;
+}
+
+.main__menu {
+  text-transform: uppercase;
+  font-size: 25px;
+  background-color: #fafafa;
+}
+
+.containercard {
+  width: 300px;
+  height: 200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.containercard:hover {
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact a {
+  background-color: #fafafa;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+body {
+  height: 100%;
+  font-family: "Noto Sans", sans-serif;
+  background-image: url(../media/pexels-pixabay-220067.jpg);
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkslateblue;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkslateblue;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: darkslateblue;
+  border-color: darkslateblue;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: darkslateblue;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: darkslateblue;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.footer {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* MIS MEDIAQUERIES */
+@media screen and (max-width: 1700px) {
+  .main__menu {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+}
+/* tablet */
+@media screen and (max-width: 1100px) {
+  .main__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/* phone horizontal */
+/* phone vertical */
