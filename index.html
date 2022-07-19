@@ -15,93 +15,167 @@
 </head>
 <body>
     <header>
-        <nav class="header__LogoSim">
-            <img src="./media/SIMBOX LOGO.svg" alt="">
+        <nav class="navbar bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/index.html">
+                <img src="/media/SIMBOX LOGO.svg" alt="LogoSimbox" width="" height="42">
+              </a>
+            </div>
+            <div>
+                <form class="d-flex-end" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><3</button>
+                </form>
+            </div>
         </nav>
-        <div class="header__LogoSim--intro">
-            <h3> Lo invitamos a conocer la forma más divertida de acercarse a la musica, 
-                con un nombre que es sinónimo de vanguardia en enseñanza musical en todo el mundo. 
-                 Llevamos décadas despertando el gusto por el instrumento.</h3>
+        <div class="CarouCards">
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./media/1ST SLIDE.jpg" class="d-block w-100" alt="Primer foto">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Bienvenido a SIMBOX Music</h3>
+                      <h4>Un nuevo instituto de arte, orientado a la música.</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./media/2ND SLIDE.jpg" class="d-block w-100" alt="Segunda foto">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Equipado con los mejores tutores de la industria</h3>
+                      <h4>Y las mejores tecnicas de estudio musical.</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./media/3TH SLIDE.jpg" class="d-block w-100" alt="Tercer foto">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>¿Alguna vez soñaste con convertiste en una estrella de la musica?</h3>
+                      <h4>Entonces no esperes más.</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./media/4TH SLIDE.jpg" class="d-block w-100" alt="Cuarta foto">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Contamos con estudios de grabacion musical personalizados</h3>
+                      <h4>Listos para todo tipos de artistas.</h4>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./media/5TH SLIDE.jpg" class="d-block w-100" alt="Quinta foto">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Salas interactivas para grabacion de Videoclips</h3>
+                      <h4>¡Equipadas y listas para grabar tu proximo video!</h4>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
         <br><br>
     </header>
     <section>
         <main>
-            <nav>
-                <div>
-                    <!-- instrumentos -->
-                    <div class="row justify-content-around">
-                        <!-- guitarra -->
-                        <div class="card col-4" style="width: 18rem;">
-                            <img src="media/guitarra.jpg" class="card-img-top" alt="GUITARRITA">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="./paginas/guitar.html" class="btn btn-outline-dark">GUITARRA</a>
-                            </div>
-                        </div>
-                        <!-- piano -->
-                        <div class="card col-4" style="width: 18rem;">
-                            <img src="media/piano.jpg" class="card-img-top" alt="PIANO">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="./paginas/piano.html" class="btn btn-outline-dark">PIANO</a>
-                            </div>
-                        </div>
-                        <!-- percusion -->
-                        <div class="card col-4" style="width: 18rem;">
-                            <img src="media/Percusiones.jpg" class="card-img-top" alt="PERCUSION">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="./paginas/percusion.html" class="btn btn-outline-dark">PERCUSION</a>
-                            </div>
-                        </div>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./media/Pablito Lezcano.jpg" class="img-fluid rounded-start" alt="fotopabli">
                     </div>
-                    <br><br>
-                    <div class="row justify-content-around">
-                        <!-- violin -->
-                        <div class="card col-4" style="width: 18rem;">
-                            <img src="media/Cuerdas.jpg" class="card-img-top" alt="CUERDAS">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="./paginas/strings.html" class="btn btn-outline-dark">CUERDAS</a>
-                            </div>
-                        </div>
-                        <!-- voz -->
-                        <div class="card col-4" style="width: 18rem;">
-                            <img src="media/Canto.jpg" class="card-img-top" alt="MICROFONO">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="./paginas/voice.html" class="btn btn-outline-dark">MICROFONO</a>
-                            </div>
-                        </div>
-                        <!-- viento -->
-                        <div class="card col-4" style="width: 18rem;">
-                            <img src="media/Viento.jpg" class="card-img-top" alt="VIENTO">
-                            <div class="card-body">
-                                <h5 class="card-title"></h5>
-                                <p class="card-text"></p>
-                                <a href="./paginas/wind.html" class="btn btn-outline-dark">VIENTO</a>
-                            </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">NUESTRA HISTORIA</h5>
+                            <p class="card-text">SIMBOX Music nació en el año 2022, e inmediatamente se convirtió en el instituto n°1 en el mundo, fundado por su Director, Pablito Lezcano
+                                su institución, ha logrado ganarse el prestigio necesario para estar en la cima. Ubicada al este de Masachusetts, cuenta con mas de 25000 alumnos, que cursan 
+                                de forma presencial o a distancia.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </div>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">NUESTRO OBJETIVO</h5>
+                            <p class="card-text">En SIMBOX Music tenemos como objetivo principal, promover la información y las herramientas  a todas aquellas peronas que nos sea posible. Por eso a partir del 2023
+                                nuestro instituto pasará a ser gratis, (LEISTE BIEN). ¿Te vas a quedar afuera?
+                                Es la primera institución de gestión privada en ofrecer carreras de nivel superior con título oficial en música, sonido, grabación, producción musical, música electrónica y multimedia, cubriendo todos los aspectos de la actividad musical actual.
+
+El área de música propiamente dicha incluye la enseñanza de instrumentos musicales como guitarra, piano, bandoneón,violín, bajo, violonchelo, contrabajo, flauta traversa, saxo, clarinete, trompeta, trombón, batería y percusión. También se imparten clases de canto, composición y educación musical en los niveles de Formación Básica, tecnicaturas en sonido, grabación y producción yedición de audio y video y multimedia.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="col-md-4">
+                        <img src="./media/musica gratis.jpg" class="img-fluid rounded-start" width="100%" alt="fotopabli">
+                    </div>
+                </div>
+            </div>
         </main>
         <hr>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <br><br>
         <div class="contact">
-            <a href="./paginas/contacto.html" class="btn btn-secondary btn-lg active" role="button" >contacto</a>
+            <a href="./paginas/contacto.html" class="btn btn-secondary btn-lg active" role="button">contacto</a>
         </div>
 
     </section>
 
     <hr>
-    <footer>
-        <ul class="footer">
+    <footer class="site-footer bg-dark text-white pt-4 pb-4 ">
+        <ul class="Redes">
             <li><a href="https://www.instagram.com/"><img
                         src="./media/instagramvector-partikusi-design-seeklogo.com.svg" alt="LOGO Insta"
                         height="20px">Instagram</a></li>
@@ -109,6 +183,10 @@
                         alt="LOGO ytb" height="20px">Youtube</a></li>
             <li><a href="https://twitter.com/"><img src="./media/twitter-seeklogo.com.svg" alt="LOGO Twit"
                         height="20px">Twitter</a></li>
+        </ul>
+        <ul class="Datos">
+            
+
         </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
